@@ -5,7 +5,7 @@
     const inputSentence = sentence.toLowerCase().split(" ");
     const inputWord = word.toLowerCase();
 
-    return inputSentence.filter((w) => w === inputWord).length;
+    return inputSentence.filter((item) => item === inputWord).length;
   };
 
   const res = countWordOccurrences(

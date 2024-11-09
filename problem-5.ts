@@ -4,6 +4,6 @@
     return obj[propertyName];
   };
 
-  const res = getProperty({ name: "sourav", age: 44, roll: 5555 }, "roll");
+  const res = getProperty({ name: "sourav", age: 44, roll: 5555 }, "name");
   console.log(res);
 }
